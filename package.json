@@ -1,0 +1,32 @@
+{
+  "name": "sfdc-node-outbound-messages",
+  "version": "1.0.0",
+  "description": "A sample server that listens and parses Salesforce Outbound Messages",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bradbumbalough/sfdc-node-outbound-messages.git"
+  },
+  "keywords": [
+    "salesforce",
+    "sfdc",
+    "express",
+    "outbound-messages"
+  ],
+  "author": "Brad Bumbalough <bradley.bumbalough@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bradbumbalough/sfdc-node-outbound-messages/issues"
+  },
+  "homepage": "https://github.com/bradbumbalough/sfdc-node-outbound-messages#readme",
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0",
+    "express": "^4.15.2",
+    "express-xml-bodyparser": "^0.3.0",
+    "ngrok": "^2.2.8"
+  }
+}
